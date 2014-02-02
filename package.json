@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "dependencies": {
     "gzippo": "~0.2.0",
-    "express": "~3.4.8"
+    "express": "~3.4.8",
+    "coffee-script": "~1.7.1"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -50,5 +51,12 @@
   },
   "scripts": {
     "test": "grunt test"
-  }
+  },
+  "description": "foo test server",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
 }
