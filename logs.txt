@@ -65,3 +65,18 @@
 2014-02-02T15:26:21.320217+00:00 heroku[api]: Scale to web=1 by dallas.stowasser@gmail.com
 2014-02-02T15:26:26.565830+00:00 heroku[router]: at=info method=GET path=/ host=foo1278.herokuapp.com request_id=3cd34934-1f21-4a38-8586-5ed0891777a1 fwd="173.71.52.125" dyno=web.1 connect=2ms service=14ms status=404 bytes=23
 2014-02-02T15:26:26.568124+00:00 app[web.1]: [90mGET / [33m404 [90m6ms[0m
+2014-02-02T15:36:10.862398+00:00 app[web.1]: [90mGET / [33m404 [90m2ms[0m
+2014-02-02T15:36:10.855623+00:00 heroku[router]: at=info method=GET path=/ host=foo1278.herokuapp.com request_id=b6c7b713-7856-4f16-9c47-5e9b02222c7d fwd="173.71.52.125" dyno=web.1 connect=2ms service=4ms status=404 bytes=23
+2014-02-02T15:38:07+00:00 heroku[slug-compiler]: Slug compilation started
+2014-02-02T15:38:10+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-02-02T15:38:11.510742+00:00 heroku[web.1]: State changed from up to starting
+2014-02-02T15:38:13.097194+00:00 heroku[web.1]: Starting process with command `node web.js`
+2014-02-02T15:38:13.874487+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-02-02T15:38:14.295387+00:00 heroku[web.1]: State changed from starting to up
+2014-02-02T15:38:15.735244+00:00 heroku[web.1]: Process exited with status 143
+2014-02-02T15:38:15.833295+00:00 app[web.1]: [90mGET / [33m404 [90m5ms[0m
+2014-02-02T15:38:15.829913+00:00 heroku[router]: at=info method=GET path=/ host=foo1278.herokuapp.com request_id=ce4839dc-19ae-4207-8733-73fc8b69733a fwd="173.71.52.125" dyno=web.1 connect=0ms service=11ms status=404 bytes=23
+2014-02-02T15:38:10.827103+00:00 heroku[api]: Deploy 18b65b0 by dallas.stowasser@gmail.com
+2014-02-02T15:38:10.851833+00:00 heroku[api]: Release v6 created by dallas.stowasser@gmail.com
+2014-02-02T15:38:26.384769+00:00 app[web.1]: [90mGET /index.html [33m404 [90m4ms[0m
+2014-02-02T15:38:26.379644+00:00 heroku[router]: at=info method=GET path=/index.html host=foo1278.herokuapp.com request_id=6ec95e36-c666-46f0-891d-233744b216ef fwd="173.71.52.125" dyno=web.1 connect=1ms service=5ms status=404 bytes=34
